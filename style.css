@@ -1,0 +1,55 @@
+body{
+  background-color: #2C2B3D;
+  color: #FFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-style: normal;
+
+  margin: 71px 99px 23px 98px;
+
+}
+
+.page{
+  width: 1083px;
+  height: 626px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+ul li a:hover{
+  font-style: bold;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h1 span{
+  color: #00BFA6;
+}
+
+section p{
+  text-align: center;
+  width: 604px;
+  font-family: 'Open Sans', sans-serif; font-family: ;
+}
+
+footer{
+  font-size: 14px;
+}
